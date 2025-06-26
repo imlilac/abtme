@@ -9,13 +9,38 @@ body {
     margin-top:30px;
     border: green solid;
 }
-
+#main {
+    display:flex;
+    gap:10px
+}
 #bio {
     border-radius:15px;
     border:dashed white;
     height:fit-content;
-    width:39%;
+    width:41%;
     padding:0 6px;
     text-align:justify;
-    margin-left:10px
+    margin-left:10px;
+}
+
+#about {
+    border:dashed white;
+    border-radius:15px;
+    width:46%;
+    height:fit-content;
+    padding:0 6px;
+    margin-right:10px;
+    list-style-position:inside;
+}
+
+
+ul {
+    padding-left:27px;
+    margin-left:-17px;
+    font-weight:bolder;
+}
+
+ul ul {
+    padding-left:51px;
+    font-weight:normal;
 }
