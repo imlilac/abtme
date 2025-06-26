@@ -24,10 +24,10 @@ body {
 }
 
 #about {
-    border:dashed white;
     border-radius:15px;
-    width:46%;
+    border:dashed white;
     height:fit-content;
+    width:46%;
     padding:0 6px;
     margin-right:10px;
     list-style-position:inside;
