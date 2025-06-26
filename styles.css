@@ -1,0 +1,21 @@
+body {
+    background-color:thistle;
+    font-family:monospace;
+}
+
+#content {
+    width:60%;
+    margin:auto;
+    margin-top:30px;
+    border: green solid;
+}
+
+#bio {
+    border-radius:15px;
+    border:dashed white;
+    height:fit-content;
+    width:39%;
+    padding:0 6px;
+    text-align:justify;
+    margin-left:10px
+}
