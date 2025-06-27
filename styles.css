@@ -63,8 +63,6 @@ a {
     list-style-position:inside;
 }
 
-
-
 #row2 {
     display:flex;
     width:100%;
@@ -75,6 +73,7 @@ a {
     padding:0 10px;
     box-sizing:border-box;
 }
+
 #socials {
     border-radius:15px;
     border:dashed white;
@@ -90,6 +89,7 @@ a {
 }
 
 #labels {
+    display:flex;
     border-radius:15px;
     border:dashed white;
     height:fit-content;
@@ -99,4 +99,16 @@ a {
 
 #labels ul {
     margin-left:3px;
+    padding-right:10px
+}
+
+#flags {
+    margin:20px 0;
+    margin-left:auto;
+    margin-right:20px;
+}
+
+#flags img {
+    max-width:100%;
+    height:100px
 }
