@@ -23,6 +23,7 @@ ul {
 
 h3 {
     margin-left:6px;
+    text-decoration: underline;
 }
 
 a {
@@ -33,7 +34,6 @@ a {
     width:60%;
     margin:auto;
     margin-top:30px;
-    border: green solid 4px;
 }
 
 #top-row {
@@ -110,5 +110,5 @@ a {
 
 #flags img {
     max-width:100%;
-    height:100px;
+    height:78px;
 }
