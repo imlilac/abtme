@@ -88,6 +88,12 @@ a {
     padding-bottom:6px
 }
 
+#logos img {
+    padding:2px;
+    outline:solid 2px;
+    outline-color:rebeccapurple;
+}
+
 #labels {
     display:flex;
     border-radius:15px;
