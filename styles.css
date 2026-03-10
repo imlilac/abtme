@@ -88,12 +88,6 @@ a {
     padding-bottom:6px
 }
 
-#logos img {
-    padding:2px;
-    outline:solid 2px;
-    outline-color:rebeccapurple;
-}
-
 #labels {
     display:flex;
     border-radius:15px;
@@ -118,3 +112,20 @@ a {
     max-width:100%;
     height:75px;
 }
+
+#photodump {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+#photodump img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#photodump a {
+    display:block;
+}
+
