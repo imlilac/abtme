@@ -27,7 +27,7 @@ h3 {
 }
 
 a {
-    color:#3966b7;
+    color:rebeccapurple;
 }
 
 #content {
@@ -129,3 +129,19 @@ a {
     display:block;
 }
 
+#concert-photodump {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-w-caption {
+    border: solid 3px black;
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    vertical-align: top;
+    padding: 4px;
+    break-inside: avoid;
+}
