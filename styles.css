@@ -3,7 +3,7 @@ input {
 }
 
 body {
-    background-color:thistle;
+    background-color:#d8c0d8;
     font-family:monospace;
 }
 
@@ -27,7 +27,7 @@ h3 {
 }
 
 a {
-    color:rebeccapurple;
+    color:#663399;
 }
 
 #content {
@@ -47,7 +47,7 @@ a {
 
 #bio {
     border-radius:15px;
-    border:dashed white;
+    border:dashed #FFF;
     height:fit-content;
     width:40%;
     padding:0 6px;
@@ -56,7 +56,7 @@ a {
 
 #interests {
     border-radius:15px;
-    border:dashed white;
+    border:dashed #FFF;
     height:fit-content;
     width:58%;
     padding:0 6px;
@@ -76,7 +76,7 @@ a {
 
 #socials {
     border-radius:15px;
-    border:dashed white;
+    border:dashed #FFF;
     height:fit-content;
     width:40%;
     padding:0 6px;
@@ -91,7 +91,7 @@ a {
 #labels {
     display:flex;
     border-radius:15px;
-    border:dashed white;
+    border:dashed #FFF;
     height:fit-content;
     width:58%;
     padding:0 6px;
@@ -137,7 +137,7 @@ a {
 }
 
 .img-w-caption {
-    border: solid 3px black;
+    border: solid 3px #000;
     display: inline-block;
     width: 300px;
     margin: 10px;
