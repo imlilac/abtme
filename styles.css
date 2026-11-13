@@ -30,6 +30,22 @@ a {
     color:#663399;
 }
 
+table {
+    border-left:solid;
+    border-right:solid;
+    border-top:solid;
+}
+th {
+    width:1%;
+    font-size:x-large;
+    border-bottom:solid;
+}
+
+td {
+    font-size:larger;
+    border-bottom:solid
+}
+
 #content {
     width:60%;
     margin:auto;
@@ -142,6 +158,15 @@ a {
     grid-template-columns: repeat(auto-fit, 300px);
     justify-content: center;
     gap: 20px;
+}
+
+.centered-list-container{
+    text-align:center;
+}
+
+.centered-list {
+    display: inline-block;
+    text-align: left;
 }
 
 .img-w-caption {
